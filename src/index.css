@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+    --text-secondary: #F9706A;
+    --text-primary: #333333;
+    --text-light: #a4a4a4;
+    --bg-secondary: #F9706A;
+    --bg-dark: #333333;
+    --border-light: #ededed;
+}
+
+h4,
+h5,
+h6,
+a {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+}
