@@ -19,7 +19,7 @@ function TobBar() {
                 </div>
                 <div className="account-main flex flex-row gap-1 text-black/50 text-sm">
                     <div className="account relative px-2">
-                        <h5 className="transition-all duration-150 hover:text-(--text-secondary) cursor-default select-none" onClick={()=>{setIsOpen(!isOpen)}}>My Account <i class="ms-1 text-xs bi bi-chevron-down"></i></h5>
+                        <h5 className="transition-all duration-150 hover:text-(--text-secondary) cursor-default select-none" onClick={()=>{setIsOpen(!isOpen)}}>My Account <i className="ms-1 text-xs bi bi-chevron-down"></i></h5>
                         <div className={`dropdown-content absolute bg-white p-4 w-36 top-8 -left-10 shadow-[0_0_15px_#000]/20 ${isOpen ? '' : 'hidden'}`}>
                             <h5 className="transition-all duration-150 hover:text-(--text-secondary) pb-3 border-b border-black/20"><a href="?">Log in</a></h5>
                             <h5 className="transition-all duration-150 hover:text-(--text-secondary) pt-3"><a href="?">Create Account</a></h5>
